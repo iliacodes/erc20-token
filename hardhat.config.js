@@ -9,10 +9,6 @@ module.exports = {
     goerli: {
       url: process.env.QUICKNODE_API_KEY_URL,
       accounts: [process.env.GOERLI_PRIVATE_KEY],
-    },
-    mainnet: {
-      url: process.env.QUICKNODE_API_KEY_URL,
-      accounts: [process.env.MAINNET_PRIVATE_KEY],
     }
   }
 };
